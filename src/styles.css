@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.dropzone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  background-color: #29cded;
+}
+
+.dropzone-true {
+  border: 1px solid green;
+  background-color: rgb(131, 221, 131);
+}
+
+.dropzone-false {
+  background-color: #29cded;
+}
+
+.btn-dw {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+  border: 3px solid #29cded;
+  background-color: #29cded;
+  color: white;
+  border-radius: 15px;
+  font-size: 17px;
+  max-height: 60px;
+  max-width: 200px;
+}
+
+.btn-dw:hover {
+  border: 3px solid rgb(27, 83, 27);
+  background-color: rgb(17, 66, 17);
+}

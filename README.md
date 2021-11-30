@@ -1,2 +1,2 @@
-# fluxChallenge
+# flux
 Created with CodeSandbox
